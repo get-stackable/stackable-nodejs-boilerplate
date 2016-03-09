@@ -13,6 +13,6 @@
     "errorhandler": "^1.4.3",
     "express": "^4.13.4",
     "hbs": "^4.0.0",
-    "stackable": "1.0.1"
+    "stackable": "1.1.1"
   }
 }
