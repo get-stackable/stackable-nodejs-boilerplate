@@ -1,1 +1,1 @@
-exports.stackblePrivateKey = '6riG3sugjiTh';
+exports.stackblePrivateKey = process.env.STACK_TOKEN' || 'YOUR-STACK-TOKEN';
