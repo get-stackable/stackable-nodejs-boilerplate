@@ -22,11 +22,6 @@ app.set('views', path.join(__dirname, 'views'));
 var config = require('./config/main');
 
 /**
- * Controllers (route handlers).
- */
-var mainController = require('./controllers/main');
-
-/**
  * Intialize stackable.
  */
 app.use(function(req, res, next) {
@@ -35,9 +30,16 @@ app.use(function(req, res, next) {
 });
 
 /**
+ * Controllers (route handlers).
+ */
+var mainController = require('./controllers/main');
+var postController = require('./controllers/post');
+
+/**
  * Primary app routes.
  */
 app.get('/', mainController.index);
+app.get('/post/:id', postController.view);
 
 /**
  * Error Handler.

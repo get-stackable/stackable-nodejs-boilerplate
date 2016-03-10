@@ -1,7 +1,7 @@
 <ul>
-    {{#each projects}}
+    {{#each posts}}
         <li>
-            {{data.Title}}
+            <a href="/post/{{_id}}">{{data.title}}</a>
         </li>
     {{/each}}
 </ul>

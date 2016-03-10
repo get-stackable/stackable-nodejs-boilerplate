@@ -1,1 +1,1 @@
-exports.stackblePrivateKey = 'GEG8F7LBGyDz';
+exports.stackblePrivateKey = '6riG3sugjiTh';

@@ -13,6 +13,10 @@ git clone --depth=1 https://github.com/stackable/stackable-nodejs-boilerplate my
 # Change directory
 cd myproject
 
+# Set stack Private Key
+
+Paste in your Stack's private key in `config/main.js`
+
 # Install NPM dependencies
 npm install
 
