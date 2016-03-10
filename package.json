@@ -7,12 +7,25 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Parminder Klair",
+  "license": "MIT",
   "dependencies": {
     "errorhandler": "^1.4.3",
     "express": "^4.13.4",
     "hbs": "^4.0.0",
     "stackable": "1.1.1"
-  }
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/get-stackable/stackable-nodejs-boilerplate"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "stackable"
+  ]
 }

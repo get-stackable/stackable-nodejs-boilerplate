@@ -1,0 +1,8 @@
+{
+  "name": "Stackable Nodejs boilerplate",
+  "description": "A barebones Node.js app using Express 4 and Stackable API",
+  "repository": "https://github.com/get-stackable/stackable-nodejs-boilerplate",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static", "stackable"],
+  "image": "heroku/nodejs"
+}

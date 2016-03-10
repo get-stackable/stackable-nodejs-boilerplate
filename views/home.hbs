@@ -1,7 +1,36 @@
-<ul>
-    {{#each posts}}
-        <li>
-            <a href="/post/{{_id}}">{{data.title}}</a>
-        </li>
-    {{/each}}
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+    {{> header}}
+</head>
+
+<body>
+
+{{> nav}}
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <a href="/" class="lang-logo">
+            <img src="/lang-logo.png">
+        </a>
+        <h1>Getting Started with Node and Stackable API</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3><span class="glyphicon glyphicon-link"></span> Posts</h3>
+            <ul>
+                {{#each posts}}
+                    <li>
+                        <a href="/post/{{_id}}">{{data.title}}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
