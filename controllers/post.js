@@ -8,6 +8,9 @@ exports.view = function(req, res) {
 
     stackable.getItem(itemId, function (error, result) {
         //console.log(error, result.data);
+        if (error) {
+            console.log(error);
+        }
 
         res.render('post', {
             post: result.data[0].data
