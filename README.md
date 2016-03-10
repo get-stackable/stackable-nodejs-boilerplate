@@ -2,7 +2,7 @@
 
 A barebones Node.js app using [Express 4](http://expressjs.com/) and Stackable API
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/get-stackable/stackable-nodejs-boilerplate)
 
 ## Getting Started
 
