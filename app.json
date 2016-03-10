@@ -4,5 +4,11 @@
   "repository": "https://github.com/get-stackable/stackable-nodejs-boilerplate",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static", "stackable"],
-  "image": "heroku/nodejs"
+  "image": "heroku/nodejs",
+  "env": {
+    "STACK_TOKEN": {
+      "description": "Your Stack's Private Key.",
+      "required": true
+    }
+  }
 }
