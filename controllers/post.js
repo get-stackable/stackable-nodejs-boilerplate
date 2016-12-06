@@ -2,12 +2,12 @@
  * GET /
  * Single post.
  */
-exports.view = function(req, res) {
-    var stackable = req.res.stackable;
-    var itemId = req.params.id;
+exports.view = function (req, res) {
+    const stackable = req.res.stackable;
+    const itemId = req.params.id;
 
-    stackable.getItem(itemId, function (error, result) {
-        //console.log(error, result.data);
+    stackable.getItem(itemId, (error, result) => {
+        // console.log(error, result.data);
         if (error) {
             console.log(error);
         }

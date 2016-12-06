@@ -1,14 +1,16 @@
+const config = require('../config/main');
+
 /**
  * GET /
  * Home page.
  */
-exports.index = function(req, res) {
-    var stackable = req.res.stackable;
+exports.index = function (req, res) {
+    const stackable = req.res.stackable;
 
-    stackable.getContainerItems('yuXN5CHkCpfqi8Pk9', function (error, result) {
-        //console.log(error, result.data);
+    stackable.getContainerItems(config.stackbleBlogKey, (error, result) => {
+        // console.log(error, result.data);
         if (error) {
-            console.log(error);
+            console.log('stackable error', error);
         }
 
         res.render('home', {

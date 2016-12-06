@@ -10,10 +10,26 @@
   "author": "Parminder Klair",
   "license": "MIT",
   "dependencies": {
-    "errorhandler": "^1.4.3",
-    "express": "^4.13.4",
+    "stackable": "1.4.6",
+    "body-parser": "^1.15.2",
+    "bug-killer": "^4.2.5",
+    "crypto": "0.0.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.14.0",
+    "express-status-monitor": "^0.1.6",
+    "express-validator": "^3.0.0",
     "hbs": "^4.0.0",
-    "stackable": "1.1.1"
+    "opn": "^4.0.2",
+    "r-json": "^1.2.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.3.0"
   },
   "engines": {
     "node": "0.12.7"
